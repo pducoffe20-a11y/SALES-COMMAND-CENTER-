@@ -1,0 +1,10 @@
+{
+  "name": "react",
+  "version": "0.0.0-local",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./jsx-runtime": "./jsx-runtime.js"
+  },
+  "types": "./index.d.ts"
+}

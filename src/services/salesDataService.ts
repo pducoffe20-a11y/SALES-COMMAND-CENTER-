@@ -1,0 +1,36 @@
+import {
+  accounts,
+  buyingCommittee,
+  competitors,
+  contacts,
+  discoveryNotes,
+  emailDrafts,
+  interactions,
+  meetingHistory,
+  meetings,
+  opportunityNotes,
+  tasks,
+  triggers,
+} from '../data/mockSalesData';
+
+// Future integrations plug in here. Keep Outlook, Salesforce, Slack, SharePoint,
+// and Zoom adapters behind this service so UI components stay simple and testable.
+export const salesDataService = {
+  getAccounts: () => accounts,
+  getContacts: () => contacts,
+  getMeetings: () => meetings,
+  getTasks: () => tasks,
+  getTriggers: () => triggers,
+  getEmailDrafts: () => emailDrafts,
+  getOpportunityNotes: () => opportunityNotes,
+  getBuyingCommitteeForAccount: (accountId: string) => buyingCommittee.filter((member) => member.accountId === accountId),
+  getMeetingHistoryForAccount: (accountId: string) => meetingHistory.filter((meeting) => meeting.accountId === accountId),
+  getDiscoveryNotesForAccount: (accountId: string) => discoveryNotes.filter((note) => note.accountId === accountId),
+  getCompetitorsForAccount: (accountId: string) => competitors.filter((competitor) => competitor.accountId === accountId),
+  getInteractionsForAccount: (accountId: string) => interactions.filter((interaction) => interaction.accountId === accountId),
+  getAccountById: (accountId: string) => accounts.find((account) => account.id === accountId),
+  getContactById: (contactId: string) => contacts.find((contact) => contact.id === contactId),
+  getContactsForAccount: (accountId: string) => contacts.filter((contact) => contact.accountId === accountId),
+  getTasksForAccount: (accountId: string) => tasks.filter((task) => task.accountId === accountId),
+  getNotesForAccount: (accountId: string) => opportunityNotes.filter((note) => note.accountId === accountId),
+};
