@@ -16,7 +16,9 @@
     "react": "file:vendor/react",
     "react-dom": "file:vendor/react-dom"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
   "optionalDependencies": {
     "@playwright/test": "^1.54.1"
   }
