@@ -1,0 +1,23 @@
+{
+  "name": "sales-command-center",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/dev-server.mjs",
+    "check:screenshot-support": "node scripts/check-screenshot-support.mjs",
+    "screenshots": "node scripts/generate-screenshots.mjs",
+    "test:e2e": "node scripts/run-playwright-or-fallback.mjs test",
+    "screenshots:playwright": "node scripts/run-playwright-or-fallback.mjs screenshots"
+  },
+  "dependencies": {
+    "react": "file:vendor/react",
+    "react-dom": "file:vendor/react-dom"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {
+    "@playwright/test": "^1.54.1"
+  }
+}

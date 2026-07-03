@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1050" viewBox="0 0 1440 1050">
+  <rect width="100%" height="100%" fill="#f6f0e7" />
+  <style>text{font-family:Inter,Arial,sans-serif}</style>
+  
+  <text x="56" y="82" font-size="42" font-weight="900" fill="#20322d">Prospect workspace</text>
+  <text x="56" y="122" font-size="20" fill="#526158">CSV upload scores accounts, identifies ICP fit, groups contacts, and creates action boards.</text>
+  <rect x="56" y="170" width="420" height="760" rx="26" fill="#fffaf1" stroke="#e2d4c1" />
+  <text x="86" y="225" font-size="26" font-weight="900" fill="#20322d">CSV input</text>
+  <text x="86" y="280" font-size="15" fill="#62574d">account, contact, title, vertical, employees, signal, notes</text>
+  
+  <rect x="520" y="170" width="864" height="210" rx="22" fill="#fffaf1" stroke="#e2d4c1" />
+  <rect x="538" y="188" width="92" height="24" rx="12" fill="#e4efe8" />
+  <text x="550" y="205" font-size="11" font-weight="700" fill="#2f4a42">Strong ICP fit · Score 100</text>
+  <text x="538" y="242" font-size="20" font-weight="800" fill="#20322d">State Association of Workforce Boards</text>
+  <text x="538" y="272" font-size="13" fill="#62574d">Recommended first outreach tied to member certification launch.</text>
+  <text x="538" y="298" font-size="13" fill="#62574d">Actions: confirm event, find owner, draft note, log next touch.</text>
+  
+  <rect x="520" y="415" width="864" height="210" rx="22" fill="#fffaf1" stroke="#e2d4c1" />
+  <rect x="538" y="433" width="92" height="24" rx="12" fill="#e4efe8" />
+  <text x="550" y="450" font-size="11" font-weight="700" fill="#2f4a42">Strong ICP fit · Score 100</text>
+  <text x="538" y="487" font-size="20" font-weight="800" fill="#20322d">Great Lakes Hospital Education Network</text>
+  <text x="538" y="517" font-size="13" fill="#62574d">CE tracking review with distributed educators.</text>
+  <text x="538" y="543" font-size="13" fill="#62574d">Missing research: current learning pain details.</text>
+  
+  <rect x="520" y="660" width="864" height="210" rx="22" fill="#fffaf1" stroke="#e2d4c1" />
+  <rect x="538" y="678" width="92" height="24" rx="12" fill="#e4efe8" />
+  <text x="550" y="695" font-size="11" font-weight="700" fill="#2f4a42">Medium ICP fit · Score 72</text>
+  <text x="538" y="732" font-size="20" font-weight="800" fill="#20322d">Precision Trades Alliance</text>
+  <text x="538" y="762" font-size="13" fill="#62574d">Conference training track suggests member learning need.</text>
+  <text x="538" y="788" font-size="13" fill="#62574d">Actions: research LMS, budget timing, program owner.</text>
+</svg>

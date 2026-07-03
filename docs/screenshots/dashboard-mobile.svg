@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1200" viewBox="0 0 390 1200">
+  <rect width="100%" height="100%" fill="#f6f0e7" />
+  <style>text{font-family:Inter,Arial,sans-serif}</style>
+  
+  <rect x="0" y="0" width="390" height="230" fill="#efe2cf" />
+  <text x="20" y="42" font-size="16" font-weight="800" fill="#20322d">Sales Command Center</text>
+  <text x="20" y="92" font-size="34" font-weight="900" fill="#20322d">Decide the next</text>
+  <text x="20" y="130" font-size="34" font-weight="900" fill="#20322d">best sales move</text>
+  
+  <rect x="20" y="260" width="350" height="150" rx="22" fill="#fffaf1" stroke="#e2d4c1" />
+  <rect x="38" y="278" width="92" height="24" rx="12" fill="#e4efe8" />
+  <text x="50" y="295" font-size="11" font-weight="700" fill="#a34832">Work first</text>
+  <text x="38" y="332" font-size="20" font-weight="800" fill="#20322d">American Board</text>
+  <text x="38" y="362" font-size="13" fill="#62574d">Send journey map.</text>
+  <text x="38" y="388" font-size="13" fill="#62574d">Why: board urgency.</text>
+  
+  <rect x="20" y="430" width="350" height="150" rx="22" fill="#fffaf1" stroke="#e2d4c1" />
+  <rect x="38" y="448" width="92" height="24" rx="12" fill="#e4efe8" />
+  <text x="50" y="465" font-size="11" font-weight="700" fill="#2f4a42">Meetings</text>
+  <text x="38" y="502" font-size="20" font-weight="800" fill="#20322d">2 need prep</text>
+  <text x="38" y="532" font-size="13" fill="#62574d">Certification and CE.</text>
+  <text x="38" y="558" font-size="13" fill="#62574d">Ask practical next step.</text>
+  
+  <rect x="20" y="600" width="350" height="150" rx="22" fill="#fffaf1" stroke="#e2d4c1" />
+  <rect x="38" y="618" width="92" height="24" rx="12" fill="#e4efe8" />
+  <text x="50" y="635" font-size="11" font-weight="700" fill="#a34832">Overdue</text>
+  <text x="38" y="672" font-size="20" font-weight="800" fill="#20322d">1 follow-up</text>
+  <text x="38" y="702" font-size="13" fill="#62574d">Audit reporting.</text>
+  <text x="38" y="728" font-size="13" fill="#62574d">Clear promises.</text>
+  <rect x="20" y="790" width="350" height="300" rx="24" fill="#fffaf1" stroke="#e2d4c1" />
+  <text x="42" y="838" font-size="24" font-weight="900" fill="#20322d">Priority queue</text>
+  <text x="42" y="890" font-size="16" font-weight="800" fill="#20322d">1. American Board</text>
+  <text x="42" y="920" font-size="13" fill="#62574d">Confirm learner checkpoints.</text>
+  <text x="42" y="970" font-size="16" font-weight="800" fill="#20322d">2. Rural Health Educators</text>
+  <text x="42" y="1000" font-size="13" fill="#62574d">Focus on CE launch risk.</text>
+</svg>
